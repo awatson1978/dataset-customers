@@ -3,6 +3,6 @@
     "description": "Meteorite package that adds 500 records to a CustomerAccounts collection.",
     "homepage": "https://github.com/awatson1978/datasets-customers",
     "author": "Abigail Watson  (http://www.pentasyllabic.com)",
-    "version": "0.1.2",
+    "version": "0.1.1",
     "git": "https://github.com/awatson1978/datasets-customers.git"
 }
