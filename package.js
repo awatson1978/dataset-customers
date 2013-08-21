@@ -3,5 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+    api.use('standard-app-packages');
     api.add_files('initialize.customers.js', ["client","server"]);
 });
