@@ -111,7 +111,7 @@ Template.customersListItemTemplate.events({
 ------------------------
 ### CRUD Forms Data/Document Model
 
-Once those peices are in place, you're ready to implement the rest of the CRUD pattern, by adding a form and buttons for Create, Update, and Delete functions.
+Once those pieces are in place, you're ready to implement the rest of the CRUD pattern, by adding a form and buttons for Create, Update, and Delete functions.
 
 ````html
 <template name="customerFormTemplate">
