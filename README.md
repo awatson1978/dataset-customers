@@ -19,7 +19,7 @@ Alternatively, if you'd like to bypass Atmosphere, and install directly from Git
   },
   "packages": {
     "datasets-customers": {
-      "git": "https://github.com/awatson1978/datasets-customers.git"
+      "git": "https://github.com/awatson1978/dataset-customers.git"
     }
   }
 }
