@@ -610,8 +610,8 @@ if(Meteor.isServer){
           Web:  data[i].Web,
 
           Password:  data[i].FirstName,
-          Datetime:  moment().add('d', (Math.random() * 500)).format("YYYY-MM-DD"),
-          Birthday:  moment().add('d', (Math.random() * 500)).format("YYYY-MM-DD"),
+          Datetime:  moment().add((Math.random() * 500), 'd').format("YYYY-MM-DD"),
+          Birthday:  moment().add((Math.random() * 500), 'd').format("YYYY-MM-DD"),
           //Month:  moment().month(Number),
           Month: ((2000 + Math.floor(Math.random() * 20)) + " " + Math.floor(Math.random() * 12)),
           Week: ((2000 + Math.floor(Math.random() * 20)) + "-W" + Math.floor(Math.random() * 52)),
@@ -642,4 +642,3 @@ function get_random_color() {
   var l = rand(70, 90); // lightness 30-70%
   return 'hsl(' + h + ',' + s + '%,' + l + '%)';
 }
-
