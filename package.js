@@ -2,7 +2,7 @@ Package.describe({
   summary: "Meteorite package that adds 500 records to a CustomerAccounts collection.",
 
   // update this value before you run 'meteor publish'
-  version: "1.0.1",
+  version: "1.0.2",
 
   // if this value isn't set, meteor will default to the directory name
   name: "awatson1978:dataset-customers",
