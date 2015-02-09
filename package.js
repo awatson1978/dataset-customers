@@ -2,7 +2,7 @@ Package.describe({
   summary: "Meteorite package that adds 500 records to a CustomerAccounts collection.",
 
   // update this value before you run 'meteor publish'
-  version: "1.0.2",
+  version: "1.0.3",
 
   // if this value isn't set, meteor will default to the directory name
   name: "awatson1978:dataset-customers",
@@ -12,7 +12,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('momentjs:moment@2.9.0');
-    api.use('standard-app-packages@1.0.4');
-    api.add_files('initialize.customers.js', ["client","server"]);
+  api.export('CustomerAccounts');
+  api.use('momentjs:moment@2.9.0');
+  api.use('standard-app-packages@1.0.4');
+  api.add_files('initialize.customers.js', ["client","server"]);
 });
